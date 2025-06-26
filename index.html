@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virbac</title>
+    <title>Boehringer Ingelheim</title>
     <style>
         /* Reset and base styles */
         * {
@@ -357,7 +357,7 @@
     <nav>
         <div class="nav-container">
             <a href="#" class="logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Virbac_logo_CMYK-1.svg" width="120">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Boehringer_Ingelheim_Logo.svg" width="120">
             </a>
             <ul class="nav-links" style="center">
                 <li><a href="#" style="color: #000000;">Detail</a></li>
@@ -381,7 +381,7 @@
 
     <div class="chat-window" id="chatWindow">
         <div class="chat-header">
-            <span>Virbac Sales Assistant</span>
+            <span>Boehringer Ingelheim Sales Assistant</span>
             <div class="chat-controls">
                 <button class="chat-control" id="expandChat">&#x26F6;</button>
                 <button class="chat-control" id="minimizeChat">_</button>
@@ -525,7 +525,7 @@
                 let done = false;
 
                 // Read chunks from the stream until done
-                appendMessage('Virbac Agent:', '');
+                appendMessage('Boehringer Ingelheim Agent:', '');
                 while (!done) {
                     const { value, done: streamDone } = await reader.read();
                     done = streamDone;
@@ -541,7 +541,7 @@
                 suggestedButtons(buttons);
             } catch (error) {
                 console.log(error);
-                appendMessage('Virbac Agent:', 'Sorry, there was an error processing your request.' + error);
+                appendMessage('Boehringer Ingelheim Agent:', 'Sorry, there was an error processing your request.' + error);
             }
         }
     </script>
